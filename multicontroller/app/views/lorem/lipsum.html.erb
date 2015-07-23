@@ -1,0 +1,9 @@
+<h1>Gozer spoke, <%=@num_paragraphs%> times!</h1>
+
+<%@output.each do |o|%>
+  <p>
+  <%=o%>
+  </p>
+<%end%>
+<img src="../../assets/images/gozer2" alt="Gozer2" class="img-circle">
+<h1><%=link_to "Are you a God?", namer_path(name: "pete")%></h1>
